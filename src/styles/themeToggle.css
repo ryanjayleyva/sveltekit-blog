@@ -1,0 +1,10 @@
+.themeToggle {
+	cursor: pointer;
+	background: none;
+	border: none;
+	transition: transform 0.3s;
+}
+
+.themeToggle:hover {
+	transform: scale(1.1);
+}

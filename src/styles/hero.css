@@ -1,0 +1,83 @@
+.container {
+	max-width: 50rem;
+	padding: 1rem;
+	transition: 0.3s ease;
+}
+
+.author {
+	font-weight: 700;
+}
+
+.about {
+	font-weight: 450;
+}
+
+@media (max-width: 37.5rem) {
+	.container {
+		margin: 10rem auto 0 auto;
+	}
+
+	.author {
+		font-size: 1.3rem;
+	}
+
+	.about {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 37.5rem) {
+	.container {
+		margin: 12rem auto 0 auto;
+	}
+
+	.author {
+		font-size: 1.3rem;
+	}
+
+	.about {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 48rem) {
+	.container {
+		margin: 14rem auto 0 auto;
+	}
+
+	.author {
+		font-size: 1.4rem;
+	}
+
+	.about {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 62rem) {
+	.container {
+		margin: 16rem auto 0 auto;
+	}
+
+	.author {
+		font-size: 1.5rem;
+	}
+
+	.about {
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 75rem) {
+	.container {
+		margin: 18rem auto 0 auto;
+	}
+
+	.author {
+		font-size: 1.6rem;
+	}
+
+	.about {
+		font-size: 1.1rem;
+	}
+}
