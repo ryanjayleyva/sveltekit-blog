@@ -12,7 +12,12 @@
 
 		<div>
 			<ThemeToggle />
-			<a href="https://github.com/ryanjayleyva/" class="githubIcon" target="_blank">
+			<a
+				href="https://github.com/ryanjayleyva/"
+				class="githubIcon"
+				aria-label="Github Icon"
+				target="_blank"
+			>
 				<GithubIcon />
 			</a>
 		</div>

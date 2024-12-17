@@ -12,12 +12,36 @@
 	font-weight: 450;
 }
 
+.postsWrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 50rem;
+	margin-inline: auto;
+	padding: 1rem;
+}
+
+.articles {
+	margin: 0 0 1.5rem 0;
+}
+
+.post {
+	list-style-type: none;
+	margin-top: 1rem;
+}
+
+.title {
+	color: var(--indigo-600);
+	font-weight: 700;
+}
+
 @media (max-width: 37.5rem) {
 	.container {
 		margin: 10rem auto 0 auto;
 	}
 
-	.author {
+	.author,
+	.articles,
+	.title {
 		font-size: 1.3rem;
 	}
 
@@ -31,7 +55,9 @@
 		margin: 12rem auto 0 auto;
 	}
 
-	.author {
+	.author,
+	.articles,
+	.title {
 		font-size: 1.3rem;
 	}
 
@@ -45,7 +71,9 @@
 		margin: 14rem auto 0 auto;
 	}
 
-	.author {
+	.author,
+	.articles,
+	.title {
 		font-size: 1.4rem;
 	}
 
@@ -59,7 +87,9 @@
 		margin: 16rem auto 0 auto;
 	}
 
-	.author {
+	.author,
+	.articles,
+	.title {
 		font-size: 1.5rem;
 	}
 
@@ -73,7 +103,9 @@
 		margin: 18rem auto 0 auto;
 	}
 
-	.author {
+	.author,
+	.articles,
+	.title {
 		font-size: 1.6rem;
 	}
 

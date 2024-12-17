@@ -1,6 +1,6 @@
 ---
 title: Git Setup
-description: First post.
+description: Read the full article here.
 date: '2023-4-14'
 categories:
   - sveltekit
